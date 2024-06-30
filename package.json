@@ -11,5 +11,9 @@
   },
   "dependencies": {
     "nuxt": "^3.12.2"
+  },
+  "devDependencies": {
+    "@nuxt/icon": "^1.0.0",
+    "usebootstrap": "^3.5.8"
   }
 }
