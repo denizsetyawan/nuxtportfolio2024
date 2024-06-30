@@ -5,14 +5,10 @@
             <NavbarToggler />
             <NavbarCollapse>
                 <NavbarNav margin="s-auto">
-                    <NavLink active>
-                        Home
-                    </NavLink>
-                    <NavLink>About</NavLink>
-                    <NavLink>Works</NavLink>
-                    <NavLink>
-                        Contact
-                    </NavLink>
+                    <NavLink href="/">Home</NavLink>
+                    <NavLink href="/about">About</NavLink>
+                    <NavLink href="/works">Works</NavLink>
+                    <NavLink href="/contact">Contact</NavLink>
                 </NavbarNav>
             </NavbarCollapse>
         </Container>

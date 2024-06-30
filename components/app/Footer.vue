@@ -11,10 +11,10 @@ const year = new Date().getFullYear();
             <Col col="md-2">
                 <div class="d-flex justify-content-center">
                     <div class="button-container">
-                        <a href="/contact" class="circle-button">
+                        <NavLink href="/contact" class="circle-button">
                             Contact <br>me!
                             <span class="arrow">→</span>
-                        </a>
+                        </NavLink>
                     </div>
                 </div>
             </Col>
