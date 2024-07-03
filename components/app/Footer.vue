@@ -6,7 +6,7 @@ const year = new Date().getFullYear();
     <footer>
         <Row no-gutters class="align-items-center">
             <Col col="md-10">
-                <h1 class="text-white">Got project to <br> work with?</h1>
+                <h1 class="text-white" data-aos="flip-up">Got project to <br> work with?</h1>
             </Col>
             <Col col="md-2">
                 <div class="d-flex justify-content-center">

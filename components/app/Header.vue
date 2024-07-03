@@ -16,14 +16,13 @@
 </template>
 
 <style scoped>
-.navbar-brand {
-    font-weight: 500;
+.navbar {
+    font-weight: 700 !important;
 }
 
 .nav-link {
     font-size: 1.2rem;
     color: #c4c4c4;
-    font-weight: 500;
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {

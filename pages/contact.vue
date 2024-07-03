@@ -1,8 +1,7 @@
 <script lang="ts">
     export default {
         setup() {
-            const cards = reactive([
-                {
+            const cards = reactive([{
                     title: "Name",
                     placeholder: "Enter your name"
                 },
@@ -30,21 +29,15 @@
 
             <Row margin="y-5">
                 <Col col="md-6">
-                    <AppFormCard
-                        v-for="card in cards"
-                        :key="card.title"
-                        :title="card.title"
-                        :placeholder="card.placeholder"
-                    />
+                <AppFormCard v-for="card in cards" :key="card.title" :title="card.title"
+                    :placeholder="card.placeholder" />
 
-                    <b-button
-                        button="primary"
-                        padding="x-5 y-3"
-                    >
-                        Send
-                    </b-button>
+                <b-button button="primary" padding="x-5 y-3">
+                    Send
+                </b-button>
                 </Col>
                 <Col col="md-6">
+                <AppParallax />
                 </Col>
             </Row>
         </Container>
@@ -52,10 +45,14 @@
 </template>
 
 <style scoped>
-.btn-primary {
-    background-color: #69C6AC;
-    font-weight: 700;
-    border-color: #000;
-    border-radius: 9px;
-}
+    h3 {
+        font-weight: 700;
+    }
+
+    .btn-primary {
+        background-color: #69C6AC;
+        font-weight: 700;
+        border-color: #000;
+        border-radius: 9px;
+    }
 </style>

@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true
   },
-  modules: ["usebootstrap", "@nuxt/icon"],
+  modules: ["usebootstrap", "@nuxt/icon", "nuxt-aos", "@nuxt/fonts"],
   usebootstrap: {
     bootstrap: {
       prefix: ``
@@ -13,7 +13,8 @@ export default defineNuxtConfig({
     },
   },
   css: [
-    "bootstrap/scss/bootstrap.scss"
-  ]
+    "bootstrap/scss/bootstrap.scss",
+    "~/assets/css/main.css",
+  ],
 
 })

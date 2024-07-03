@@ -3,9 +3,13 @@
         <Container class="section-1">
             <Row justify-content="around">
                 <Col col="md-5" margin="t-3">
-                    <Card class="d-flex flex-column">
+                    <Card class="d-flex flex-column"
+                        data-aos="fade-right"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500"
+                    >
                         <CardBody class="d-flex flex-column flex-grow-1">
-                            <CardTitle margin="x-3">Hey, Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit delectus deserunt animi temporibus atque ipsa!</CardTitle>
+                            <CardTitle margin="x-3" font-weight="bold">Hey, Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit delectus deserunt animi temporibus atque ipsa!</CardTitle>
                             <CardText margin="x-3 t-3" class="flex-grow-1">
                                 Some quick example text to build on the card title and make up the bulk
                                 of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -36,7 +40,11 @@
                     </Card>
                 </Col>
                 <Col col="md-5" margin="t-3">
-                    <Card class="card-img h-100">
+                    <Card class="card-img h-100"
+                        data-aos="fade-left"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500"
+                    >
                     </Card>
                 </Col>
             </Row>
@@ -76,7 +84,11 @@
         <Container class="section-3" margin="y-5">
             <Row class="justify-content-center">
                 <Col col="md-11">
-                    <Card>
+                    <Card
+                        data-aos="flip-left"
+                        data-aos-easing="linear"
+                        data-aos-duration="1300"
+                    >
                         <CardBody margin="x-5">
                             <CardTitle>Want to work together?</CardTitle>
                             <CardText>Feel free to reach out for collaborations or just a friendly hello <br> hello@dnz.my.id</CardText>
@@ -172,5 +184,9 @@
     border: 1px solid #000;
     box-shadow: 9px 9px 0px #000000;
     border-radius: 20px;
+}
+
+.section-3 .card-title {
+    font-weight: 700;
 }
 </style>

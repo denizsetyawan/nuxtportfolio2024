@@ -1,6 +1,10 @@
 <template>
     <div>
-        <Container>
+        <Container
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+        >
             <Row margin="y-5">
                 <Col col="md-6">
                     <h1>Hey, I'm Deniz, a web developer with 3 years of experience.</h1>
@@ -15,3 +19,9 @@
         </Container>
     </div>
 </template>
+
+<style scoped>
+    h1 {
+        font-weight: 700;
+    }
+</style>
