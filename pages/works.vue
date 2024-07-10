@@ -1,6 +1,44 @@
 <script lang="ts">
     export default {
         setup() {
+
+            const { $gsap } = useNuxtApp()
+
+            onMounted(() => {
+                $gsap.from('.skill-badge', {
+                    duration: 1,
+                    opacity: 0,
+                    y: 50,
+                    stagger: 0.1,
+                    ease: "power2.out"
+                });
+
+                $gsap.utils.toArray('.timeline-row').forEach((row: any, index: number) => {
+                    const side = index % 2 === 0 ? 'left' : 'right';
+                    const xOffset = side === 'left' ? -100 : 100;
+
+                    $gsap.fromTo(row, {
+                        opacity: 0,
+                        x: xOffset,
+                        y: 50
+                    }, {
+                        opacity: 1,
+                        x: 0,
+                        y: 0,
+                        duration: 1.5,
+                        ease: "power2.out",
+                        scrollTrigger: {
+                            trigger: row,
+                            start: 'top 80%',
+                            end: 'bottom 60%',
+                            toggleActions: 'play none none reverse',
+                            markers: true
+                        },
+                        stagger: 0.3
+                    });
+                });
+            })
+
             const timelineData = reactive([{
                     title: "Fullstack Developer",
                     company: "Lorem ipsum",
@@ -42,26 +80,26 @@
                     <Container>
                         <Row v-for="(item, index) in timelineData" :key="index" class="my-5 timeline-row">
                             <Col v-if="index % 2 === 0" col="md-6" class="timeline-left">
-                            <Card class="mb-4 timeline-card">
-                                <CardBody>
-                                    <h6 class="font-weight-bold">{{ item.title }}</h6>
-                                    <b-p class="font-italic">{{ item.company }}</b-p>
-                                    <b-p class="font-weight-bold text-danger">{{ item.period }}</b-p>
-                                </CardBody>
-                            </Card>
+                                <Card class="mb-4 timeline-card">
+                                    <CardBody>
+                                        <h6 class="role">{{ item.title }}</h6>
+                                        <b-p class="font-italic">{{ item.company }}</b-p>
+                                        <b-p class="font-weight-bold text-danger">{{ item.period }}</b-p>
+                                    </CardBody>
+                                </Card>
                             </Col>
                             <Col v-if="index % 2 === 0" col="md-6">
                             </Col>
                             <Col v-if="index % 2 !== 0" col="md-6">
                             </Col>
                             <Col v-if="index % 2 !== 0" col="md-6" class="timeline-right">
-                            <Card class="mb-4 timeline-card">
-                                <CardBody>
-                                    <h6 class="font-weight-bold">{{ item.title }}</h6>
-                                    <b-p class="font-italic">{{ item.company }}</b-p>
-                                    <b-p class="font-weight-bold text-danger">{{ item.period }}</b-p>
-                                </CardBody>
-                            </Card>
+                                <Card class="mb-4 timeline-card">
+                                    <CardBody>
+                                        <h6 class="role">{{ item.title }}</h6>
+                                        <b-p class="font-italic">{{ item.company }}</b-p>
+                                        <b-p class="font-weight-bold text-danger">{{ item.period }}</b-p>
+                                    </CardBody>
+                                </Card>
                             </Col>
                         </Row>
                     </Container>
@@ -77,7 +115,9 @@
                     :key="index"
                     background-color="dark"
                     margin="x-1 y-1"
-                    padding="2">
+                    padding="2"
+                    class="skill-badge"
+                >
                     {{ skill }}
                 </Badge>
             </Col>
@@ -125,6 +165,10 @@
 <style scoped>
     .main-content {
         --bs-gutter-x: 0;
+    }
+
+    .role {
+        font-weight: bold;
     }
 
     .timeline-container {

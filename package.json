@@ -15,6 +15,7 @@
     "nuxt-aos": "^1.2.4"
   },
   "devDependencies": {
+    "@hypernym/nuxt-gsap": "^2.4.2",
     "@nuxt/icon": "^1.0.0",
     "usebootstrap": "^3.5.8"
   }

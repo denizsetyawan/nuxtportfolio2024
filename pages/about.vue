@@ -1,3 +1,23 @@
+<script lang="ts">
+export default {
+    setup() {
+        const { $gsap } = useNuxtApp()
+
+        onMounted(() => {
+            $gsap.to('.title', {
+                duration: 4,
+                text: "Hey, I'm Deniz, a web developer with 3 years of experience.",
+                ease: "none",
+            });
+        })
+
+        return {
+            
+        }
+    }
+}
+</script>
+
 <template>
     <div>
         <Container
@@ -7,7 +27,7 @@
         >
             <Row margin="y-5">
                 <Col col="md-6">
-                    <h1>Hey, I'm Deniz, a web developer with 3 years of experience.</h1>
+                    <h1 class="title"></h1>
                 </Col>
                 <Col col="md-6"></Col>
             </Row>

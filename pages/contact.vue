@@ -1,6 +1,8 @@
 <script lang="ts">
     export default {
         setup() {
+            const { $gsap } = useNuxtApp()
+
             const cards = reactive([{
                     title: "Name",
                     placeholder: "Enter your name"
@@ -14,6 +16,14 @@
                     placeholder: "Enter your message"
                 }
             ]);
+
+            onMounted(() => {
+                $gsap.from('.card', {
+                    duration:2.5,
+                    ease: "elastic.inOut(1,0.3)",
+                    y: -800
+                })
+            })
 
             return {
                 cards
@@ -29,12 +39,12 @@
 
             <Row margin="y-5">
                 <Col col="md-6">
-                <AppFormCard v-for="card in cards" :key="card.title" :title="card.title"
-                    :placeholder="card.placeholder" />
+                    <AppFormCard v-for="card in cards" :key="card.title" :title="card.title"
+                        :placeholder="card.placeholder" />
 
-                <b-button button="primary" padding="x-5 y-3">
-                    Send
-                </b-button>
+                    <b-button button="primary" padding="x-5 y-3">
+                        Send
+                    </b-button>
                 </Col>
                 <Col col="md-6">
                 <AppParallax />

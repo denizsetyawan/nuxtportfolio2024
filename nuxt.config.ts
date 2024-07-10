@@ -3,7 +3,13 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true
   },
-  modules: ["usebootstrap", "@nuxt/icon", "nuxt-aos", "@nuxt/fonts"],
+  modules: [
+    "usebootstrap",
+    "@nuxt/icon",
+    "nuxt-aos",
+    "@nuxt/fonts",
+    "@hypernym/nuxt-gsap"
+  ],
   usebootstrap: {
     bootstrap: {
       prefix: ``
@@ -16,5 +22,11 @@ export default defineNuxtConfig({
     "bootstrap/scss/bootstrap.scss",
     "~/assets/css/main.css",
   ],
+  gsap: {
+    extraPlugins: {
+      text: true
+    }
+  }
+
 
 })
