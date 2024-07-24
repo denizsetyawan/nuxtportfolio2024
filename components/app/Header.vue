@@ -8,6 +8,7 @@
                     <NavLink href="/">Home</NavLink>
                     <NavLink href="/about">About</NavLink>
                     <NavLink href="/works">Works</NavLink>
+                    <NavLink href="/portfolio">Portfolio</NavLink>
                     <NavLink href="/contact">Contact</NavLink>
                 </NavbarNav>
             </NavbarCollapse>

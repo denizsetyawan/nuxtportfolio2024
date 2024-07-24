@@ -1,5 +1,18 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: "en"
+      },
+      title: "dnz portfolio",
+      meta: [
+        { name: "description", content: "deniz setyawan" },
+        { name: "keywords", content: "portfolio, web developer" },
+        { name: "author", content: "deniz" }
+      ],
+    }
+  },
   devtools: {
     enabled: true
   },
@@ -8,7 +21,8 @@ export default defineNuxtConfig({
     "@nuxt/icon",
     "nuxt-aos",
     "@nuxt/fonts",
-    "@hypernym/nuxt-gsap"
+    "@hypernym/nuxt-gsap",
+    "@nuxt/content"
   ],
   usebootstrap: {
     bootstrap: {
@@ -24,7 +38,8 @@ export default defineNuxtConfig({
   ],
   gsap: {
     extraPlugins: {
-      text: true
+      text: true,
+      scrollTrigger: true
     }
   }
 

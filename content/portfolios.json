@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Fullstack Developer",
+        "image": "https://picsum.photos/536/354"
+    },
+    {
+        "title": "Frontend Developer",
+        "image": "https://picsum.photos/200/354"
+    },
+    {
+        "title": "Backend Developer",
+        "image": "https://picsum.photos/536/300"
+    },
+    {
+        "title": "Intern",
+        "image": "https://picsum.photos/200/300"
+    }
+]
