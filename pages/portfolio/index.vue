@@ -43,7 +43,10 @@
   <div class="container my-5">
     <div class="row">
       <div class="col-md-3" v-for="(portfolio, index) in portfolios[0]" :key="index">
-        <div class="card image-container">
+        <div class="card image-container"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
           <img :src="portfolio.image" class="card-img-top" alt="Image">
           <div class="card-body text-center">
             <h5 class="card-title text-uppercase">{{ portfolio.title }}</h5>
