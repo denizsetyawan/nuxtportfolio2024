@@ -23,7 +23,8 @@ export default defineNuxtConfig({
     "@nuxt/fonts",
     "@hypernym/nuxt-gsap",
     "@nuxt/content",
-    "nuxt-easy-lightbox"
+    "nuxt-easy-lightbox",
+    "vue3-carousel-nuxt"
   ],
   usebootstrap: {
     bootstrap: {

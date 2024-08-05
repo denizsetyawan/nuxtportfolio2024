@@ -64,17 +64,24 @@
   <div class="container my-5">
     <img class="thumbnail img-fluid" :src="portfolio.image" alt="Image">
 
-    <div>
-      <Row>
-        <Col col="md-4"
-          v-for="(src, index) in portfolio.images"
-          :key="index"
-          class="pic"
-          @click="() => showImg(index)">
-          <img class="img-fluid my-2" :src="src" alt="Image" style="width: 100%; max-height: 200px; object-fit: cover">
-        </Col>
-      </Row>
-    </div>
+    <Carousel :items-to-show="2.5" :wrap-around="true">
+      <Slide
+        v-for="(src, index) in portfolio.images"
+        :key="index"
+        @click="() => showImg(index)"
+      >
+        <img
+          class="img-fluid my-2"
+          :src="src"
+          alt="Image"
+          style="width: 100%; max-height: 200px; object-fit: cover"
+        />
+      </Slide>
+
+      <template #addons>
+        <Navigation />
+      </template>
+    </Carousel>
 
     <VueEasyLightbox
       :visible="visibleRef"
@@ -83,7 +90,7 @@
       @hide="onHide"
     />
 
-    <h1 class="text-uppercase fw-bold">{{ portfolio.title }}</h1>
+    <h1 class="text-uppercase fw-bold mt-5">{{ portfolio.title }}</h1>
     <div class="row">
       <div class="col-md-9">
         <p>{{ portfolio.description }}</p>
@@ -108,4 +115,5 @@
     margin-bottom: 50px;
     border-radius: 16px;
   }
+
 </style>

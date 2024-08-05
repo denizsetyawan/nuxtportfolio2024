@@ -14,7 +14,8 @@
     "@nuxt/fonts": "^0.7.1",
     "nuxt": "^3.12.2",
     "nuxt-aos": "^1.2.4",
-    "nuxt-easy-lightbox": "^1.0.2"
+    "nuxt-easy-lightbox": "^1.0.2",
+    "vue3-carousel-nuxt": "^1.1.2"
   },
   "devDependencies": {
     "@hypernym/nuxt-gsap": "^2.4.2",
