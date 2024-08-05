@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Dazo",
+        "slug": "dazo",
+        "image": "https://picsum.photos/536/354",
+        "website": "https://www.dazo.com/",
+        "stack": "Next.js, React, TypeScript, Tailwind CSS, GSAP, Framer Motion, Vercel, Cloudflare, Netlify",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, nisl eget ultricies pellentesque, nunc nisl aliquet nisl, eget ultricies pellentesque nisl nisl aliquet nisl.",
+        "images": [
+            "https://picsum.photos/536/354",
+            "https://picsum.photos/536/352",
+            "https://picsum.photos/536/384",
+            "https://picsum.photos/536/300"
+        ]
+    }
+]

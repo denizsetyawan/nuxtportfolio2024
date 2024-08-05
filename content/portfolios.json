@@ -1,18 +1,22 @@
 [
     {
-        "title": "Fullstack Developer",
+        "title": "Dazo",
+        "slug": "dazo",
         "image": "https://picsum.photos/536/354"
     },
     {
         "title": "Frontend Developer",
+        "slug": "frontend-developer",
         "image": "https://picsum.photos/200/354"
     },
     {
         "title": "Backend Developer",
+        "slug": "backend-developer",
         "image": "https://picsum.photos/536/300"
     },
     {
         "title": "Intern",
+        "slug": "intern",
         "image": "https://picsum.photos/200/300"
     }
 ]

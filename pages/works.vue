@@ -61,7 +61,7 @@
                 }
             ]);
 
-            const skills = reactive(["HTML", "CSS", "JavaScript", "PHP", "MySQL", "MongoDB", "Vue", "Nuxt", "Bootstrap", "Node JS", "Express JS", "Laravel", "Wordpress"]);
+            const skills = reactive(["HTML", "CSS", "JavaScript", "Git", "PHP", "MySQL", "MongoDB", "Vue", "Nuxt", "Bootstrap", "Node JS", "Express JS", "Laravel", "Wordpress"]);
 
             return {
                 timelineData,

@@ -22,7 +22,8 @@ export default defineNuxtConfig({
     "nuxt-aos",
     "@nuxt/fonts",
     "@hypernym/nuxt-gsap",
-    "@nuxt/content"
+    "@nuxt/content",
+    "nuxt-easy-lightbox"
   ],
   usebootstrap: {
     bootstrap: {
