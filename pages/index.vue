@@ -6,14 +6,14 @@ export default {
         onMounted(() => {
             $gsap.to('.section-1 .title', {
                 duration: 4,
-                text: "Hey, Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit delectus deserunt animi temporibus atque ipsa!",
+                text: "Hello, I'm Deniz, a web developer with 3 years of experience,",
                 ease: "none",
             })
 
             $gsap.to('.section-1 .subtitle', {
                 delay: 4,
                 duration: 4,
-                text: "Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                text: "I'm a passionate web developer who loves to create beautiful and functional websites.",
                 ease: "none",
             })
         })
@@ -36,22 +36,22 @@ export default {
                             </CardText>
                             <Row margin="b-4" class="justify-content-center">
                                 <Col xs="auto" class="mb-2 mb-sm-0">
-                                <b-a button="outline-dark" rounded="circle" size="sm">
+                                <b-a href="https://github.com/denizsetyawan" target="_blank" button="outline-dark" rounded="circle" size="sm">
                                     <Icon name="mdi:github" />
                                 </b-a>
                                 </Col>
                                 <Col xs="auto" class="mb-2 mb-sm-0">
-                                <b-a button="outline-dark" rounded="circle" size="sm">
+                                <b-a href="https://www.linkedin.com/in/denis-setiawan/" target="_blank" button="outline-dark" rounded="circle" size="sm">
                                     <Icon name="mdi:linkedin" />
                                 </b-a>
                                 </Col>
                                 <Col xs="auto" class="mb-2 mb-sm-0">
-                                <b-a button="outline-dark" rounded="circle" size="sm">
+                                <b-a href="https://www.instagram.com/dnzsetyawan/" target="_blank" button="outline-dark" rounded="circle" size="sm">
                                     <Icon name="mdi:instagram" />
                                 </b-a>
                                 </Col>
                                 <Col xs="auto" class="mb-2 mb-sm-0">
-                                <b-a button="outline-dark" rounded="circle" size="sm">
+                                <b-a href="mailto:hello@dnz.my.id" target="_blank" button="outline-dark" rounded="circle" size="sm">
                                     <Icon name="mdi:envelope" />
                                 </b-a>
                                 </Col>

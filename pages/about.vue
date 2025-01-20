@@ -6,7 +6,7 @@ export default {
         onMounted(() => {
             $gsap.to('.title', {
                 duration: 4,
-                text: "Hey, I'm Deniz, a web developer with 3 years of experience.",
+                text: "Hello, I'm Deniz, a web developer with 3 years of experience,",
                 ease: "none",
             });
         })
@@ -33,7 +33,7 @@ export default {
             </Row>
             <Row margin="b-5">
                 <Col col="md-8">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias optio non repellendus libero quibusdam quas tempora illo quasi, in totam inventore mollitia deserunt adipisci odio quod placeat ipsum earum accusantium!</p>
+                    <p>who enjoys exploring and solving problems in both Front-end and Back-end worlds. I am passionate about learning new things and continuously improving my skills. Throughout my career, I have successfully developed and maintained several web applications, ensuring high performance and user satisfaction. I thrive in collaborative environments and enjoy working with diverse teams to create innovative solutions. My goal is to leverage my expertise to build impactful and efficient web applications while keeping up with the latest industry trends and technologies.</p>
                 </Col>
             </Row>
         </Container>
