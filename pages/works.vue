@@ -41,27 +41,37 @@
 
             const timelineData = reactive([{
                     title: "Fullstack Developer",
-                    company: "Lorem ipsum",
+                    company: "PT Subaga Digital Medika",
                     period: "2024 - Present"
                 },
                 {
-                    title: "Frontend Developer",
-                    company: "Dolor sit amet",
-                    period: "2022 - 2024"
+                    title: "Fullstack Developer",
+                    company: "PT Dazo Kreatif Indonesia",
+                    period: "2024"
                 },
                 {
-                    title: "Backend Developer",
-                    company: "Consectetur adipiscing",
-                    period: "2020 - 2022"
+                    title: "Fullstack Developer",
+                    company: "PT Cerise",
+                    period: "2023 - 2024"
                 },
                 {
-                    title: "Intern",
-                    company: "Elit sed do",
-                    period: "2019 - 2020"
+                    title: "Wordpress Developer",
+                    company: "CV Deftzone Indonesia",
+                    period: "2023 - 2024"
+                },
+                {
+                    title: "Fullstack Developer",
+                    company: "Jogja Tourism Training Center",
+                    period: "2022 - 2023"
+                },
+                {
+                    title: "Internship Web Developer",
+                    company: "PT Eco Greentech Abadi",
+                    period: "2021 - 2021"
                 }
             ]);
 
-            const skills = reactive(["HTML", "CSS", "JavaScript", "Git", "PHP", "MySQL", "MongoDB", "Vue", "Nuxt", "Bootstrap", "Node JS", "Express JS", "Laravel", "Wordpress"]);
+            const skills = reactive(["HTML", "CSS", "JavaScript", "Git", "PHP", "MySQL", "MongoDB", "PostgreSQL", "Vue", "Nuxt", "Angular JS", "Bootstrap", "Node JS", "Express JS", "Laravel", "Wordpress"]);
 
             return {
                 timelineData,
@@ -123,7 +133,7 @@
             </Col>
         </Row>
 
-        <Row margin="y-5">
+        <!-- <Row margin="y-5">
             <b-p headings="5" font-weight="bold">
                 My Projects
             </b-p>
@@ -158,7 +168,7 @@
                     </Col>
                 </Row>
             </Container>
-        </Row>
+        </Row> -->
     </Container>
 </template>
 

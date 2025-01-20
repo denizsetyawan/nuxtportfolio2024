@@ -66,36 +66,36 @@ export default {
             </Row>
         </Container>
 
-        <Container class="section-2" margin="y-5">
+        <!-- <Container class="section-2" margin="y-5">
             <Row justify-content="around">
                 <Col col="md-5" margin="t-3">
-                <div class="project-card">
-                    <div class="card-content">
-                        <h3>Project Name</h3>
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <div class="card-button">
-                            <button class="circle-button">
-                                <span class="arrow">↗</span>
-                            </button>
+                    <div class="project-card">
+                        <div class="card-content">
+                            <h3>Project Name</h3>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <div class="card-button">
+                                <button class="circle-button">
+                                    <span class="arrow">↗</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
                 </Col>
                 <Col col="md-5" margin="t-3">
-                <div class="project-card">
-                    <div class="card-content">
-                        <h3>Project Name</h3>
-                        <p>Lorem ipsum dolor sit amet</p>
-                        <div class="card-button">
-                            <button class="circle-button">
-                                <span class="arrow">↗</span>
-                            </button>
+                    <div class="project-card">
+                        <div class="card-content">
+                            <h3>Project Name</h3>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <div class="card-button">
+                                <button class="circle-button">
+                                    <span class="arrow">↗</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
                 </Col>
             </Row>
-        </Container>
+        </Container> -->
 
         <Container class="section-3" margin="y-5">
             <Row class="justify-content-center">
@@ -139,7 +139,7 @@ export default {
     }
 
     .section-1 .card-img {
-        background: url('https://i.pinimg.com/564x/ac/db/9b/acdb9be3bcf1d7a6ec71bc6d7ea56fa1.jpg') no-repeat center center;
+        background: url('https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/img78987298_XaVs8UM1p.png') no-repeat center center;
     }
 
     .section-2 .project-card {

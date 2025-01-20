@@ -47,7 +47,7 @@
                     </b-button>
                 </Col>
                 <Col col="md-6">
-                <AppParallax />
+                    <AppParallax />
                 </Col>
             </Row>
         </Container>

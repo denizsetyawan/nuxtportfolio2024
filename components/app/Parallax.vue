@@ -44,7 +44,7 @@
         height: 100vh;
         background-size: cover;
         background-position: center;
-        background-image: url('https://i.pinimg.com/564x/ac/db/9b/acdb9be3bcf1d7a6ec71bc6d7ea56fa1.jpg');
+        background-image: url('https://ik.imagekit.io/xdt41sehmiw/dnz-albums/IMG_20231023_183946_4HvoZ36jb.jpg');
         will-change: transform;
     }
 </style>
