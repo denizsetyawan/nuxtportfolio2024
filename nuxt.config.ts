@@ -43,7 +43,8 @@ export default defineNuxtConfig({
       text: true,
       scrollTrigger: true
     }
+  },
+  nitro: {
+    preset: 'netlify',
   }
-
-
 })
