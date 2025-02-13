@@ -139,7 +139,7 @@ export default {
     }
 
     .section-1 .card-img {
-        background: url('https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/img78987298_XaVs8UM1p.png') no-repeat center center;
+        background: url('https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/897988h9j98_C3P-UIGsY.png') no-repeat center center;
     }
 
     .section-2 .project-card {
