@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Bantenese Furniture",
+        "slug": "bantenese-furniture",
+        "image": "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/bantenese/1_yVayLBL8g.png?updatedAt=1727150108549",
+        "website": "https://bantenese.dnz.my.id/",
+        "stack": "HTML, CSS, Bootstrap, JavaScript, MySQL, Laravel",
+        "description": "it's an online shop / POS (Point of Sales) website, This project intends to manage products, categories, and create sales reports. Built with Laravel, Bootstrap, and Raja Ongkir (API).",
+        "images": [
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/bantenese/1_yVayLBL8g.png?updatedAt=1727150108549",
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/bantenese/2_JeoU52FsN.png?updatedAt=1727150109683",
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/bantenese/3_AeFJj-W2Q.png?updatedAt=1727150107289",
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/bantenese/4_WaHkqRDfj.png?updatedAt=1727150109963"
+        ]
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "title": "Transmedic",
+        "slug": "transmedic",
+        "image": "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/transmedic/1_fRz4AXZJP.png?updatedAt=1756348956420",
+        "website": "#",
+        "stack": "HTML, CSS, JavaScript, PHP, Laravel, PostgreSQL, Angular, Kendo UI",
+        "description": "I developed a Hospital Management Information System (SIMRS) for Transmedic, covering patient registration, EMR, billing, and pharmacy integration. The system improves efficiency, accuracy, and supports hospital digital transformation.",
+        "images": [
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/transmedic/1_fRz4AXZJP.png?updatedAt=1756348956420",
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/transmedic/2_JL4HaeMzbR.png?updatedAt=1756348956485",
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/transmedic/3_BFCwWy3cr.png?updatedAt=1756348956547"
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Trixie",
+        "slug": "trixie",
+        "image": "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/trixie/1_PSz8Nerk8.png?updatedAt=1727151362132",
+        "website": "https://www.trixie.co.id/",
+        "stack": "HTML, CSS, JavaScript, Bootstrap, PHP, MySQL, Laravel",
+        "description": "it's an e-commerce website and company profile website. This project intends to manage products, categories, and create sales reports. Built with Laravel, Bootstrap, and Raja Ongkir (API).",
+        "images": [
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/trixie/1_PSz8Nerk8.png?updatedAt=1727151362132",
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/trixie/5_aFbVlYOWa.png?updatedAt=1727151360409",
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/trixie/admin_o8R6TofoF.png?updatedAt=1727151360990",
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/trixie/4_BdyQsJMUL.png?updatedAt=1727151362123"
+        ]
+    }
+]

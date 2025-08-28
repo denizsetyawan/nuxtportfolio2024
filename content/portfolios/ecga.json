@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Eco Greentech Abadi",
+        "slug": "ecga",
+        "image": "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/ecogreentech/1_OK4yqwLMw.png?updatedAt=1727150494383",
+        "website": "https://ecogreentech.dnz.my.id/",
+        "stack": "HTML, CSS, JavaScript, Bootstrap, Laravel",
+        "description": "Eco Greentech Abadi is a company profile website that built using Laravel framework. Besides using Laravel, this website is also uses Bootstrap as its interface. I created it when I was doing the internship program at PT Eco Greentech Abadi.",
+        "images": [
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/ecogreentech/1_OK4yqwLMw.png?updatedAt=1727150494383",
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/ecogreentech/2_30W_3jMZS.png?updatedAt=1727150489583",
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/ecogreentech/3_udF-ngIPG.png?updatedAt=1727150488769",
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/ecogreentech/db_K-17xF2Hx.png?updatedAt=1727150488138"
+        ]
+    }
+]

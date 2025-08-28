@@ -2,21 +2,46 @@
     {
         "title": "Dazo",
         "slug": "dazo",
-        "image": "https://picsum.photos/536/354"
+        "image": "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/dazo/1_HEYORhqff.png?updatedAt=1727153422943"
     },
     {
-        "title": "Frontend Developer",
-        "slug": "frontend-developer",
-        "image": "https://picsum.photos/200/354"
+        "title": "Wordpress",
+        "slug": "wordpress",
+        "image": "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/wordpress/jttc-1_cePIMq4XK.png?updatedAt=1756264551860"
     },
     {
-        "title": "Backend Developer",
-        "slug": "backend-developer",
-        "image": "https://picsum.photos/536/300"
+        "title": "Trixie",
+        "slug": "trixie",
+        "image": "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/trixie/1_PSz8Nerk8.png?updatedAt=1727151362132"
     },
     {
-        "title": "Intern",
-        "slug": "intern",
-        "image": "https://picsum.photos/200/300"
+        "title": "SKPISO",
+        "slug": "skpiso",
+        "image": "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/skpiso/1_LZ8mP_t_y.png?updatedAt=1727151132099"
+    },
+    {
+        "title": "Kamerapedia",
+        "slug": "kamerapedia",
+        "image": "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/kamerapedia/1_okXvDyfq7.png?updatedAt=1727150736297"
+    },
+    {
+        "title": "Eco Greentech Abadi",
+        "slug": "ecga",
+        "image": "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/ecogreentech/1_OK4yqwLMw.png?updatedAt=1727150494383"
+    },
+    {
+        "title": "Bantenese Furniture",
+        "slug": "bantenese-furniture",
+        "image": "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/bantenese/5_bGAyprTXx.png?updatedAt=1727150109626"
+    },
+    {
+        "title": "Satu Legal",
+        "slug": "satu-legal",
+        "image": "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/satulegal/1_h_d0Q_h4c.png?updatedAt=1727149573907"
+    },
+    {
+        "title": "Transmedic",
+        "slug": "transmedic",
+        "image": "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/transmedic/1_fRz4AXZJP.png?updatedAt=1756348956420"
     }
 ]

@@ -21,6 +21,11 @@
         return portfolio.value.stack ? portfolio.value.stack.split(', ') : [];
       });
 
+      const descriptionArray = computed(() => {
+        if (!portfolio.value.description) return [];
+        return portfolio.value.description.split("\n").filter(line => line.trim() !== "");
+      });
+
       const visibleRef = ref(false);
       const indexRef = ref(0);
 
@@ -54,7 +59,8 @@
         evenImages,
         oddImages,
         realImages,
-        portfolio_images
+        portfolio_images,
+        descriptionArray
       };
     }
   };
@@ -93,7 +99,18 @@
     <h1 class="text-uppercase fw-bold mt-5">{{ portfolio.title }}</h1>
     <div class="row">
       <div class="col-md-9">
-        <p>{{ portfolio.description }}</p>
+        <div>
+          <p>{{ descriptionArray[0] }}</p>
+
+          <ul>
+            <li v-for="(line, i) in descriptionArray.slice(1)" :key="i">
+              <a v-if="line.startsWith('http')" :href="line" target="_blank" class="text-decoration-none text-primary">
+                {{ line }}
+              </a>
+              <span v-else>{{ line }}</span>
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="col-md-3">
         <p class="fw-bold">STACK :

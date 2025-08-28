@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Dazo",
+        "slug": "dazo",
+        "image": "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/kamerapedia/1_okXvDyfq7.png?updatedAt=1727150736297",
+        "website": "https://kamerapedia.dnz.my.id/",
+        "stack": "HTML, CSS, JavaScript, Bootstrap, Laravel",
+        "description": "it's a website for camera rental in the yogyakarta area. This project intends to manage products, categories. Built with Laravel and Bootstrap.",
+        "images": [
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/kamerapedia/1_okXvDyfq7.png?updatedAt=1727150736297",
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/kamerapedia/2_Otg4-krTZa.png?updatedAt=1727150787758",
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/kamerapedia/admin_vmLjRjS7H.png?updatedAt=1727150735666",
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/kamerapedia/trans_ei-zPN_Sr.png?updatedAt=1727150735570"
+        ]
+    }
+]

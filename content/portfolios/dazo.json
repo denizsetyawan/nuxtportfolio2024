@@ -2,15 +2,15 @@
     {
         "title": "Dazo",
         "slug": "dazo",
-        "image": "https://picsum.photos/536/354",
-        "website": "https://www.dazo.com/",
-        "stack": "Next.js, React, TypeScript, Tailwind CSS, GSAP, Framer Motion, Vercel, Cloudflare, Netlify",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, nisl eget ultricies pellentesque, nunc nisl aliquet nisl, eget ultricies pellentesque nisl nisl aliquet nisl.",
+        "image": "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/dazo/1_HEYORhqff.png?updatedAt=1727153422943",
+        "website": "https://www.dazo.id/",
+        "stack": "Vue JS, Laravel, Bootstrap CSS, Golang, MongoDB",
+        "description": "Dazo App is a Software as a Service (SaaS) company specializing in creating an AI-based order management platform. It helps MSMEs manage their businesses automatically. Equipped with an Order Management System, AI Chat Assistant, and Digital Store, you can process orders faster, manage customer chats, and create a professional online store layout tailored to your business needs.",
         "images": [
-            "https://picsum.photos/536/354",
-            "https://picsum.photos/536/352",
-            "https://picsum.photos/536/384",
-            "https://picsum.photos/536/300"
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/dazo/1_HEYORhqff.png?updatedAt=1727153422943",
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/dazo/2_Ee0VaTim6.png?updatedAt=1727153423250",
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/dazo/admin1_U_g0bKuJR_.png?updatedAt=1727153450667",
+            "https://ik.imagekit.io/xdt41sehmiw/dnz_my_id/portfolio/dazo/admin2_Bl17DW1Iva.png?updatedAt=1727153450937"
         ]
     }
 ]
