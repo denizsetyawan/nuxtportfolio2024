@@ -39,10 +39,16 @@
                 });
             })
 
-            const timelineData = reactive([{
+            const timelineData = reactive([
+                {
+                    title: "Fullstack Developer",
+                    company: "Dinas Komunikasi dan Informatika Kabupaten Bantul",
+                    period: "2026 - Present"
+                },
+                {
                     title: "Fullstack Developer",
                     company: "PT Subaga Digital Medika",
-                    period: "2024 - Present"
+                    period: "2024 - 2025"
                 },
                 {
                     title: "Fullstack Developer",
