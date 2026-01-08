@@ -6,7 +6,7 @@ export default {
         onMounted(() => {
             $gsap.to('.section-1 .title', {
                 duration: 4,
-                text: "Hello, I'm Deniz, a web developer with 3 years of experience,",
+                text: "Hello, I'm Deniz, a web developer with 4 years of experience,",
                 ease: "none",
             })
 
