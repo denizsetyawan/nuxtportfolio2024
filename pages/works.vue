@@ -42,7 +42,7 @@
             const timelineData = reactive([
                 {
                     title: "Fullstack Developer",
-                    company: "Dinas Komunikasi dan Informatika Kabupaten Bantul",
+                    company: "Kominfo",
                     period: "2026 - Present"
                 },
                 {
